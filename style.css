@@ -1,0 +1,176 @@
+.body{
+    margin: 0;
+}
+.header {
+    border-bottom: 1px solid #ccc;
+    padding: .7em 1em;
+    background-color:grey;
+    width: 100%;
+    height: auto;
+    }
+
+.header::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+.header-class {
+    float: left;
+}
+
+.header h2{
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    
+}
+
+.logo img{
+    float: left;
+    border: none;
+    max-width: 10rem;
+    width: 60%;
+}
+
+.company {
+    text-align: center;
+    white-space: nowrap;
+}
+.navbar {
+overflow: hidden;
+background-color:black;
+
+}
+
+.navbar a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar a.right {
+float: right;
+}
+
+.index-body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info{
+    align-items: right;
+}
+
+.section img{
+    display: block;
+    align-content: center;
+}
+
+
+.staff-img{
+    height: auto;
+    width: 40%;
+    padding: 20px;
+}
+
+.research-img{
+    width: 60%;
+    padding: 20px;
+}
+
+.wresearch-img{
+    width: 80%;
+    padding: 10px;
+}
+
+.students-img{
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.column {
+    box-sizing: border-box;
+  float: left;
+  padding: 10px;
+  height: 300px; 
+}
+
+.left {
+  width: 25%;
+  background-color: gray;
+}
+
+.right {
+  width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  h1, .full-width-borders {
+   
+    padding: .15rem 1.5rem;
+    background:grey;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .footer {
+    padding: 1px;
+    text-align: center;
+    background:grey;
+  }
+
+  .column{
+    box-sizing: border-box;
+    float: left;
+    height: 300px;
+  }
+
+  .left{
+      width: 25%;
+  }
+
+  .right{
+      width:75%
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row {  
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .side {
+    -ms-flex: 30%; 
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+
+  .main {   
+    -ms-flex: 70%; 
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+
+  
+  
